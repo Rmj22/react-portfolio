@@ -19,27 +19,17 @@ export class Jumbo extends Component {
                            
                         </Row>
                     </Container>
-                    <p>Proof of what I look like add subtract some hair depending 
+                    <p>Yup that me up there, add subtract some hair depending 
                                 on the season same with weight</p>
                     <h1>Hi I'm Robin Jones</h1>
                     <p>
-                        After spending alot of time driving to interviews, talking to recruiters on the phone and skype interviews
-                        that are set up "see what I look like" I decided to set up my own portfolio site to address and answer questions
-                        for employers that are thinking about hiring me. 
-                        
-                        About me *for recuriters and bored noisey old coworkers
-
-                        Where I'm willing to relocate: Minneapolis, Maine, Vermont, Idaho, Chicago, Colorado 
-                        and Salt Lake City 
-
-                        Location: Baltimore, MD 
-                        It's at the top of my resume but somehow still a question on at the interview no
-                        I cant drive to Va or Dc because traffic is a nightmare and I turn in to a horrible human.
-
-                        What I'm Looking for in my next role: A chance, I know alot of languages from the Hopkins class
-                        but need time in work to grow my skills and understanding the same way everyone else did. So 
-                        no I cant build you google in 48hours. 
-                        A cute but werid relationship interview question
+                    Full Stack Web Developer leveraging a background in the military and SharePoint development to build a more intuitive 
+                    user experience on the web. I completed and earned a Full Stack Development certiﬁcate at Johns Hopkins University. 
+                    With my newly developed skills in JavaScript, CSS, React.js, Node and responsive web design. 
+                    Known as a head-on problem-solver passionate about developing apps, with a focus on mobile-ﬁrst design and development that are right for your company.
+                    With each project, my aim is to best engage my audience for a positive user-experience.
+                    I applied aspects of UX and scrum development in a recent project where I worked in a team of four to develop a multipage MERN app that helps dog owners track their pet while they are away.
+                    Excited to leverage skills in the future as part of a fast-paced, quality-driven team in order to build better experiences on the web.
 
                     </p>
                 </Jumbotron>

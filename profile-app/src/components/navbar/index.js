@@ -12,7 +12,7 @@ export class TopNav extends Component {
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Resume Breakdown</Nav.Link>
+            <Nav.Link href="#features">Pre-Screen</Nav.Link>
             <Nav.Link href="#pricing">Projects</Nav.Link>
           </Nav>
         </Navbar>
