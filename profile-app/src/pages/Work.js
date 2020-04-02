@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Projects from '../components/card'
 
-class Work extends Component {
-  render() {
+function Work() {
+  
     return (
       <div>
 
@@ -11,6 +11,5 @@ class Work extends Component {
       </div>
     );
   }
-}
 
 export default Work;
