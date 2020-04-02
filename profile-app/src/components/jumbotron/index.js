@@ -9,8 +9,8 @@ import "../jumbotron/style.css"
 export class Jumbo extends Component {
     render() {
         return (
-            <div id="main">
-                <Jumbotron>
+            <div>
+                <Jumbotron className="jumbo" >
                     <Container>
                         <Row>
                             <Col xs={6} md={4}>
@@ -23,7 +23,7 @@ export class Jumbo extends Component {
                                 on the season same with weight</p>
                     <h1>Hi I'm Robin Jones</h1>
                     <p>
-                    Full Stack Web Developer leveraging a background in the military and SharePoint development to build a more intuitive 
+                    Full Stack Web Developer leveraging a background in the military and SharePoint development to build more intuitive 
                     user experience on the web. I completed and earned a Full Stack Development certiﬁcate at Johns Hopkins University. 
                     With my newly developed skills in JavaScript, CSS, React.js, Node and responsive web design. 
                     Known as a head-on problem-solver passionate about developing apps, with a focus on mobile-ﬁrst design and development that are right for your company.

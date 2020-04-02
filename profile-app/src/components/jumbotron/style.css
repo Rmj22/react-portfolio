@@ -4,6 +4,6 @@
     float: left;
 }
 
-#main {
-    background-image: url("https://c0.wallpaperflare.com/preview/409/979/580/three-people-murals.jpg");
+.jumbo {
+    background-image: url(.\image\brickwall.jpg);
 }
