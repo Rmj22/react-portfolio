@@ -16,6 +16,7 @@ export class TopNav extends Component {
           <Nav className="mr-auto">
             <Nav.Link href="/" >Home   </Nav.Link>
             <Nav.Link href="/Work">Work </Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/robin-jones-7534bb167/">linkedin</Nav.Link>
             <Nav.Link href="/Resume">Resume </Nav.Link>
             <Nav.Link href="https://github.com/Rmj22">Github</Nav.Link>
           </Nav>
