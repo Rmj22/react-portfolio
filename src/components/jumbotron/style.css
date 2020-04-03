@@ -1,0 +1,13 @@
+.pic {
+Display: block;
+Height: 50vh;
+Width: 20vw; 
+}
+
+.container-fluid {
+   border-color: black;
+}
+
+.area {
+    background-color: #F8C400;
+}
