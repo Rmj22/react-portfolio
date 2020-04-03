@@ -1,0 +1,10 @@
+.images {
+    Display: block;
+Height: 50px;
+Width: 30px; 
+padding:20px
+}
+
+#slides {
+    background-color: #F8C400;
+}

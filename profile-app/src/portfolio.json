@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name": "Pop Culture Trivia Game",
+        "image": "../image/game.PNG",
+        "deployed": "https://pmitch242.github.io/Pop-Culture-Trivia/index.html",
+        "source":"",
+        "skills": "JQuery, Howler API, Pop Cultrue API, Bulma framework and deployed on GitHub pages"
+    },
+
+    {
+        "id":2,
+        "name": "Kanyes Workout",
+        "image": "../image/workout.PNG",
+        "deployed": "https://kanyesworkout.herokuapp.com",
+        "source":"https://github.com/Rmj22/workout",
+        "skills": "MongoDB, Mongoose, Morgan, Express, Robo 3T and deployed on heroku with mlab addon"
+    },
+
+    {
+        "id":3,
+        "name": "Simple Budget",
+        "image": "../image/budget.PNG",
+        "deployed": "https://murmuring-journey-01407.herokuapp.com",
+        "source":"https://github.com/Rmj22/simple_budget",
+        "skills": "compression, express, lite-server, mongoose, morgan and deployed on heroku with mlab addon"  
+    }
+
+]
