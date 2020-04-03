@@ -1,68 +1,86 @@
-import React, {Component} from 'react'
-import {Button, Card, CardDeck} from 'react-bootstrap';
+import React, { Component } from 'react'
+import { Container, Carousel, Button } from 'react-bootstrap';
+import './style.css'
 
 
 export class Projects extends Component {
-  
-    render() {
 
-        return (
-            <div id="pjcards">
+  render() {
 
-<CardDeck>
-  <Card>
-    <Card.Img variant="top" src=".\image\workout.PNG" />
-    <Card.Body>
-      <Card.Title>Kanyes Workout</Card.Title>
-      <Card.Text>
-        <p>This application uses MongoDB, Mongoose, Morgan, Express, Robo 3T and deployed on heroku with mlab addon.</p>
-        <p>The app allows users to log a new workout. That workout is added to the database, when the user logs back in they
-           have the option of continuing the workout or creating a new one. All of this activity will be displayed on the users dashboard
-        </p>
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-    <Button href="https://kanyesworkout.herokuapp.com"> check it out</Button>
-      <Button href="https://github.com/Rmj22/workout">git straight to the source</Button>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src=".\image\budget chart.PNG" />
-    <Card.Body>
-      <Card.Title>Simple Budget</Card.Title>
-      <Card.Text>
-        <p>This application uses compression, express, lite-server, mongoose, morgan and deployed on heroku with mlab addon</p>
-        <p>What is special about this app you ask? It has full site functionality offline thanks to the service worker and cahced pages.
-           pwa (Progressive Web Application) are very import to the user experience. Why does this matter to you? There are fewer calls your
-           network which frees up alot of space mobile first matched with pwa will allow users to acces your site anywhere.
-        </p>
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-    <Button href="https://murmuring-journey-01407.herokuapp.com"> check it out</Button>
-      <Button href="https://github.com/Rmj22/simple_budget">git straight to the source</Button>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src=".\image\notes.PNG" />
-    <Card.Body>
-      <Card.Title>Note Taker</Card.Title>
-      <Card.Text>
-        <p>This application uses express</p>
-        <p>The app allows users to create and delete notes all notes are saved to a JSON file and retrieved from that same file.</p>
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-    <Button href="https://young-sea-15477.herokuapp.com/"> check it out</Button>
-      <Button href="https://github.com/Rmj22/note_taker">git straight to the source</Button>
-    </Card.Footer>
-  </Card>
-</CardDeck>
+    return (
+      <div id="slides">
+        <Container>
 
-            </div>
-        )
-    }
+          < Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://c0.wallpaperflare.com/preview/243/297/192/americano-cafe-coffee-coffee-bar.jpg"
+                alt="Finished Work"
+              />
+              <Carousel.Caption>
+                <h3>Finished projects</h3>
+                <p>Deployed link and github links</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src=".\image\notes.PNG"
+                alt="Note Taker"
+              />
+              <Carousel.Caption className="text">
+                <Button size="lg" href="https://young-sea-15477.herokuapp.com/">Deployed App</Button>
+                <Button size="lg" href="https://github.com/Rmj22/note_taker">Git to the source</Button>
+              </Carousel.Caption>
+            </Carousel.Item>
+             <Carousel.Item>
+             <img
+                className="d-block w-100"
+                src=".\image\game.PNG"
+                alt="Third slide"
+              />
+              <Carousel.Caption className="text">
+              <Button size="lg" href="https://pmitch242.github.io/Pop-Culture-Trivia/index.html">Deployed App</Button>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src=".\image\budget chart.jpg"
+                alt="budget chart"
+              />
+
+              <Carousel.Caption className="text"n>
+              <Button size="lg" href="https://murmuring-journey-01407.herokuapp.com">Deployed App</Button>
+                <Button size="lg" href="https://github.com/Rmj22/simple_budget">Git to the source</Button>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src=".\image\workout.PNG"
+                alt="workout"
+              />
+
+              <Carousel.Caption className="text">
+              <Button size="lg" href="https://kanyesworkout.herokuapp.com">Deployed App</Button>
+                <Button size="lg" href="https://github.com/Rmj22/workout">Git to the source</Button>
+              </Carousel.Caption>
+            </Carousel.Item>
+           
+          </Carousel>
+
+        </Container>
+
+
+      </div>
+
+    )
+  }
 }
+  export default Projects;
 
 
-export default Projects;

@@ -6,7 +6,7 @@ import Jumbo from "../components/jumbotron";
 
 function About() {
   return (
-    <div>
+    <div className="pages">
       <TopNav/>
       <Jumbo/>
       

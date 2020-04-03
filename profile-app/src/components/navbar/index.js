@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import '../navbar/style.css'
-import Resume from '../../pages/Resume'
-import Work from '../../pages/Work'
-import About from '../../pages/About'
+// import {faGithub, falistalt,facouch,fabriefcase } from'@fontawesome'
+
 
 
 
@@ -13,11 +12,12 @@ export class TopNav extends Component {
     return (
       <div id="nav" >
         <Navbar>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">React Portfolio Site</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link  >About </Nav.Link>
-            <Nav.Link href="">{Work} </Nav.Link>
-            <Nav.Link href="#pricing">{About} </Nav.Link>
+            <Nav.Link href="/" >Home   </Nav.Link>
+            <Nav.Link href="/Work">Work </Nav.Link>
+            <Nav.Link href="/Resume">Resume </Nav.Link>
+            <Nav.Link href="https://github.com/Rmj22">Github</Nav.Link>
           </Nav>
         </Navbar>
       </div>
