@@ -41,10 +41,10 @@ export class JobTable extends Component {
       <td>My wife is from Idaho and would love to move back.</td>
     </tr>
     <tr>
-      <td>Minnieapolis/Saint Paul</td>
+      <td>Minneapolis/Saint Paul</td>
       <td>Contract</td>
       <td>MERN Developer</td>
-      <td>We have family in the area and would like to see them alittle bit more then we currently do.</td>
+      <td>We have family in the area and would like to see them a little bit more then we currently do.</td>
     </tr>
   </tbody>
 </Table>
@@ -60,8 +60,8 @@ export class JobTable extends Component {
   </thead>
   <tbody>
     <tr>
-      <td>Availibility?</td>
-      <td>I cant start as soon as possible.</td>
+      <td>Availability?</td>
+      <td>I can start as soon as possible.</td>
     </tr>
     <tr>
       <td>Citizenship Status?</td>
