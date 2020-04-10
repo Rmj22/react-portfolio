@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron'
+// import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
@@ -7,23 +7,23 @@ import Image from 'react-bootstrap/Image'
 import "../jumbotron/style.css"
 
 
+
 export class Jumbo extends Component {
     render() {
         return (
-            <div>
+            <div className="homepage">
                 
                     <Container>
-                    <Jumbotron className="area" >
                         <Row>
                             <Col xs={6} md={4}>
                                 <Image  className="pic" src=".\image\Headshot.jpg"></Image>
                             </Col>
                            
                         </Row>
+                        <Container id="aboutme">
                     <Row>
                         <Col xs={6} md={4}>
-                    <p>Yup that me up there, add subtract some hair depending 
-                                on the season same with weight</p>
+            
                     <h1>Hi I'm Robin Jones</h1>
                     </Col>
                     </Row>
@@ -38,8 +38,8 @@ export class Jumbo extends Component {
                    
                     </p>
                     
-                   
-                </Jumbotron>
+                   </Container>
+                
                 </Container>
             </div>
         )
