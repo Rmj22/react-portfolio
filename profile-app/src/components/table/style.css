@@ -1,0 +1,20 @@
+.container-fluid {
+    border-color: black;
+    padding: 40px;
+ }
+ .faq {
+     padding:40px;
+     background-image: url("../../image/bike.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;   
+ }
+.table {
+    border-radius: inherit;
+}
+.content,.header,.item {
+    font-weight: bold;
+    background-color: slategrey;
+    color: black;
+    margin: 5%;
+}
+ 

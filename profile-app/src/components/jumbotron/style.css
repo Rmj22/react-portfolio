@@ -2,12 +2,19 @@
 Display: block;
 Height: 50vh;
 Width: 20vw; 
+padding: 40px;
+}
+#aboutme {
+    background-color: cornsilk;
+    
 }
 
 .container-fluid {
-   border-color: black;
-}
-
-.area {
-    background-color: #F8C400;
-}
+    border-color: black;
+    padding: 40px;
+ }
+ .homepage {
+     background-image: url("../../image/bar.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
