@@ -1,4 +1,4 @@
-import React from "./node_modules/react";
+import React from "react";
 
 function Wrapper(props) {
   return <div className="wrapper">{props.children}</div>;

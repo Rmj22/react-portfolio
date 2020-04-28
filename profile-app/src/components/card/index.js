@@ -3,13 +3,16 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import CardDeck from 'react-bootstrap/CardDeck'
+import TopNav from "../Navbar";
 import '../Card/style.css'
 
 export class Projects extends Component {
   render() {
     return (
       <div className="back">
-      <Container id="card">
+        
+      <Container>
+      <TopNav />
         <CardDeck>
         <Card style={{ width: '18rem' }}>
           <Card.Body>

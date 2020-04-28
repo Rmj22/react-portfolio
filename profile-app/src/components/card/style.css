@@ -1,14 +1,15 @@
 .container-fluid {
+    background-color: black;
     padding: 40px;
  }
 
  .back {
-    background-image: url("../../image/bridge.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../../image/boat.jpg");
     background-size: cover;
-    /* padding: 20px; */
-    height: 80 ; 
-}
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    
+ }
 
  #card {
      padding: 20px;
@@ -27,9 +28,9 @@
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:#000000;
+    color:white;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
-    background-color:#FFFFFF;
+    background-color:#000;
     text-align:center;
     transition: all 0.15s;
  }

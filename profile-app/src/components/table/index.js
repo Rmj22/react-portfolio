@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Table from 'react-bootstrap/Table'
+import TopNav from '../Navbar'
 import Container from 'react-bootstrap/Container'
 import './style.css'
 
@@ -9,6 +10,7 @@ export class JobTable extends Component {
         return (
 
             <div className="faq">
+              <TopNav />
 <Container className="table" >
   <div className="content">
   <h3 className="title" >FAQ Pre-screen Questions</h3>
