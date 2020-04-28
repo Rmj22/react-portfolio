@@ -1,4 +1,10 @@
 #nav {
-    background-color: #1FA9C4;
+    list-style-type: none;
+    background-color: transparent;
+    
+}
 
+.list-group-item.list-group-item-action {
+    background: black;
+    color: white;
 }

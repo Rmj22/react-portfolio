@@ -1,6 +1,6 @@
 import React from "react";
-import Projects from '../components/card'
-import TopNav from "../components/navbar";
+import Projects from '../components/Card'
+import TopNav from "../components/Navbar";
 
 function Work() {
   

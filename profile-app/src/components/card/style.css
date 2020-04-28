@@ -1,10 +1,36 @@
-.images {
-    Display: block;
-Height: 50px;
-Width: 30px; 
-padding:20px
+.container-fluid {
+    padding: 40px;
+ }
+
+ .back {
+    background-image: url("../../image/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 20px; */
+    height: 80 ; 
 }
 
-#slides {
-    background-color: #F8C400;
-}
+ #card {
+     padding: 20px;
+     border-color: black;
+     border-width: thick;
+     
+ }
+
+ .button {
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+ }
+

@@ -1,15 +1,16 @@
 import React from "react";
-import TopNav from '../components/navbar'
-import Jumbo from "../components/jumbotron";
+// import TopNav from '../components/Navbar'
+import Jumbo from "../components/Jumbotron";
+
 
 
 
 function About() {
   return (
-    <div className="pages">
-      <TopNav/>
+    <div>
+      {/* <TopNav/> */}
+     
       <Jumbo/>
-      
     </div>
   )
 }

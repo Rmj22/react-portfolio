@@ -1,7 +1,7 @@
 import React from'react'
-import JobTable from '../components/table'
+import JobTable from '../components/Table'
 import '../pages/About.css'
-import TopNav from '../components/navbar';
+import TopNav from '../components/Navbar';
 
 function Resume() {
     return (

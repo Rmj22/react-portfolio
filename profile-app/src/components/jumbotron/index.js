@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 // import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
+import TopNav from '../Navbar'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import "../jumbotron/style.css"
+import "./style.css"
 
 
 
@@ -14,6 +15,7 @@ export class Jumbo extends Component {
             <div className="homepage">
                 
                     <Container>
+                        <TopNav/>
                         <Row>
                             <Col xs={6} md={4}>
                                 <Image  className="pic" src=".\image\Headshot.jpg"></Image>

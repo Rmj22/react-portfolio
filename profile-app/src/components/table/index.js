@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Table from 'react-bootstrap/Table'
 import Container from 'react-bootstrap/Container'
-import '../table/style.css'
+import './style.css'
 
 export class JobTable extends Component {
 
