@@ -1,7 +1,7 @@
-.pic {
+.img-fluid {
 Display: block;
-Height: 50vh;
-Width: 20vw; 
+height: auto;
+max-width: 100%;
 padding: 20px;
 }
 #aboutme {

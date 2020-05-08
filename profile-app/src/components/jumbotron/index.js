@@ -18,7 +18,7 @@ export class Jumbo extends Component {
                         <TopNav/>
                         <Row>
                             <Col xs={6} md={4}>
-                                <Image  className="pic" src=".\image\Headshot.jpg"></Image>
+                                <Image  className="img-fluid" src=".\image\Headshot.jpg"></Image>
                             </Col>
                            
                         </Row>

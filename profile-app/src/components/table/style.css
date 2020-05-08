@@ -4,8 +4,7 @@
  }
  .faq {
      padding:40px;
-     background-image: url("../../image/bike.jpg");
-     background-repeat: no-repeat;
+     background: url("../../image/bike.jpg") fixed center no-repeat;
      background-size: cover;   
  }
 .table {
