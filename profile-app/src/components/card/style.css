@@ -4,11 +4,10 @@
  }
 
  .back {
+    padding:40px;
     background: url("../../image/boat.jpg") fixed center no-repeat;
     background-size: cover;
-    /* height: 100vh; */
-    /* background-repeat: no-repeat; */
-    
+        
  }
 
  #card {

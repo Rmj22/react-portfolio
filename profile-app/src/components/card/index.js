@@ -10,9 +10,9 @@ export class Projects extends Component {
   render() {
     return (
       <div className="back">
-        
+        <TopNav />
       <Container>
-      <TopNav />
+      
         <CardDeck>
         <Card style={{ width: '18rem' }}>
           <Card.Body>
