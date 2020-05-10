@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
 import TopNav from '../Navbar'
 import Container from 'react-bootstrap/Container'

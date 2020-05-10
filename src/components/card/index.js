@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import CardDeck from 'react-bootstrap/CardDeck'
 import TopNav from "../Navbar";
-import '../Card/style.css'
+import './style.css'
 
 export class Projects extends Component {
   render() {

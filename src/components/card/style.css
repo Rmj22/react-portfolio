@@ -4,9 +4,11 @@
  }
 
  .back {
-    padding:40px;
-    background: url("../../image/boat.jpg") fixed center no-repeat;
+    background-image: url("../../image/harbor.jpg");
+    height:99vh;
+    background-repeat: no-repeat;
     background-size: cover;
+    
         
  }
 

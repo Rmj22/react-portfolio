@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {ListGroup, Button} from 'react-bootstrap';
-import '../Navbar/style.css'
+import './style.css'
 // import { Styles } from '../Buttons/Style'
 
 
