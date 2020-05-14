@@ -1,5 +1,5 @@
 import React from'react'
-import JobTable from '../components/Table'
+import JobTable from '../components/table'
 
 
 function PreScreen() {

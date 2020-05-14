@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import CardDeck from 'react-bootstrap/CardDeck'
-import TopNav from "../Navbar";
-import './style.css'
+import TopNav from "../navbar";
+import '../card/style.css'
 
 export class Projects extends Component {
   render() {

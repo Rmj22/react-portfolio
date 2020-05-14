@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Table from 'react-bootstrap/Table'
-import TopNav from '../Navbar'
+import TopNav from '../navbar'
 import Container from 'react-bootstrap/Container'
-import './style.css'
+import '../table/style.css'
 
 export class JobTable extends Component {
 

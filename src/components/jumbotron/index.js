@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Row from 'react-bootstrap/Row'
-import TopNav from '../Navbar'
+import TopNav from '../navbar'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'

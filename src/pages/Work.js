@@ -1,5 +1,6 @@
 import React from "react";
-import Projects from '../components/Card'
+import Projects from '../components/card'
+
 
 function Work() {
   
