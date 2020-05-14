@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {ListGroup, Button} from 'react-bootstrap';
 import './style.css'
-// import { Styles } from '../Buttons/Style'
+
 
 
 
