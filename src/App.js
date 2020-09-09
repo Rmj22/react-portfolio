@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./pages/About";
+import Home from "./pages/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Work from './pages/Work'
-import PreScreen from "./pages/PreScreen";
+import Service from "./pages/Service";
+import Train from "./pages/Train";
 
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
 
     <Router>
       <div>
-        <Route exact path="/" component={About} />
-        <Route exact path="/PreScreen" component={PreScreen} />
-        <Route exact path="/Work" component={Work}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Service" component={Service} />
+        <Route exact path="/Train" component={Train}/>
       </div>
     </Router>
 

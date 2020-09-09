@@ -1,14 +1,5 @@
-#nav {
-    list-style-type: none;
-    background-color: transparent;
-    padding:40px;
-    justify-content: space-evenly;
-    
+.bar {
+    background-color: white;
 }
 
-.btn {
-    background-color: black !important;
-    padding: 20px;
-    
-}
 

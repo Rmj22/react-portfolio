@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import {ListGroup, Button} from 'react-bootstrap';
+import {NavDropdown, Container, Nav, Navbar} from 'react-bootstrap';
 import '../navbar/style.css'
-
-
-
-
 
 
 
@@ -13,15 +9,25 @@ export class TopNav extends Component {
   render() {
     return (
        
-      
-        <ListGroup id="nav" horizontal>
-          <Button   href="/"> Home </Button>
-          <Button   href="/Work">Projects</Button>
-          <Button   href="/PreScreen">Pre-Screen</Button>
-          <Button   href="https://www.linkedin.com/in/robin-jones-7534bb167">Linkedin</Button>
-          <Button   href="https://github.com/Rmj22">Github</Button>
-        </ListGroup>
-        
+    <Container fluid>
+      <Navbar collapseOnSelect expand="lg" className="bar">
+  <Navbar.Brand >XML VANTAGE</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav id="nav"className="ml-auto">
+      <Nav.Link href="/">Home</Nav.Link>
+      <NavDropdown title="Services" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="/Service">Business IT Solutions</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="/Train">Training</NavDropdown.Item>
+        <NavDropdown.Divider />
+      </NavDropdown>
+      {/* <Nav.Link href="/Portfolio">Portfolio</Nav.Link> */}
+    </Nav>
+
+  </Navbar.Collapse>
+</Navbar>
+</Container>
         
     )
   }

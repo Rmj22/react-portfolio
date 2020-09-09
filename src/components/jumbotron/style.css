@@ -1,20 +1,6 @@
-.img-fluid {
-Display: block;
-height: auto;
-max-width: 100%;
-padding: 20px;
-}
-#aboutme {
-    background-color: cornsilk;
-    
-}
-
 .container-fluid {
-    border-color: black;
-    padding: 40px;
- }
- .homepage {
-     background-image: url("../../image/bar.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 1px;
  }
