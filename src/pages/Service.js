@@ -8,8 +8,7 @@ import "../pages/style/home.css"
 
 
 function Service() {
-  
-    return (
+  return (
       <Container fluid>
        <Row className="justify-content-md-center">
         <Col md="auto">
@@ -19,18 +18,16 @@ function Service() {
         <Row>
           <Col>
           <Web/>
-          
           </Col>
         </Row>
         <Row className="justify-content-md-center">
                <Col md="auto">
-                   <Footer/>
+                   <Footer fixed ="bottom"/>
                </Col>
            </Row>
-
       </Container>
       
-    );
+    )
   }
 
 export default Service;

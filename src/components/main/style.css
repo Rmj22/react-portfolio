@@ -1,6 +1,7 @@
 .container-fluid {
     background-color: black;
+    padding: 40px;
     color:white;
     text-align: center;
-    margin: 1px;
+   
  }

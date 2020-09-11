@@ -11,18 +11,14 @@ function Train() {
         <Col md="auto">
       <TopNav/>
       </Col>
-      </Row>
+      </Row>   
            <Row>
-               <Col>
+               <Col size="md-6">
                <TrainCard/>
                </Col>
-           </Row>
-           <Row className="justify-content-md-center">
-               <Col md="auto">
+           </Row>        
                    <Footer/>
-               </Col>
-           </Row>
-
+    
        </Container>
     )
 }

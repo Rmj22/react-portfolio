@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./index.css";
 import Service from "./pages/Service";
 import Train from "./pages/Train";
 

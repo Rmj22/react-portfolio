@@ -1,5 +1,11 @@
 .bar {
-    background-color: white;
+    background-color: yellow;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: teal;
+    
 }
 
 
