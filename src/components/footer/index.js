@@ -9,7 +9,9 @@ export class Footer extends Component {
        return(
            
           <Container fluid>
-              <Navbar.Brand href="#home">Contact Us</Navbar.Brand>
+              <Navbar-text>@ 2020 xmlvantage, LLC</Navbar-text>
+              
+              <Navbar.Brand href="mailto:r.jones@xmlvantage.com">Contact Us</Navbar.Brand>
           </Container>
      
       
