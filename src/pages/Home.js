@@ -1,7 +1,7 @@
 import React from "react";
 import {Row, Container, Col} from "react-bootstrap";
 import Main from "../components/main";
-import TopNav from "../components/navbar"
+import Navi from "../components/navbar"
 import Footer from "../components/footer"
 import "../pages/style/home.css"
 
@@ -12,11 +12,11 @@ function Home() {
     <Container fluid id="tab">
       <Row className="justify-content-md-center">
         <Col md="auto">
-      <TopNav/>
+      <Navi/>
       </Col>
       </Row>
-      <Row>
-        <Col>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
         <Main/>
         </Col>
       </Row>

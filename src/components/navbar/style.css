@@ -1,11 +1,17 @@
-.bar {
-    background-color: yellow;
-    
+.list-group-item {
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
 }
 
-.navbar-toggler-icon {
-    background-color: teal;
-    
+a {
+    color:  white !important;
+}
+
+.navbar {
+    background-color: black !important;
 }
 
 
