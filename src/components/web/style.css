@@ -3,6 +3,7 @@
     padding: 40px;
     justify-content: center;
     color: white;
+    opacity: 10%;
 }
  
 .justify-content-center {
@@ -10,9 +11,3 @@
     padding: 10px;
 }
 
-hr {
-    color: darkblue;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-}

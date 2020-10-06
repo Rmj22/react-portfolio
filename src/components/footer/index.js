@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Container, Navbar} from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import "../footer"
 
 
@@ -9,9 +9,9 @@ export class Footer extends Component {
        return(
            
           <Container fluid>
-              <Navbar-text>@ 2020 xmlvantage, LLC</Navbar-text>
-              
-              <Navbar.Brand href="mailto:r.jones@xmlvantage.com">Contact Us</Navbar.Brand>
+              <Navbar-text className="footer" href="mailto:xmlvantagellc@gmail.com">@ 2020 Oct XML Vantage, LLc </Navbar-text> 
+             
+                          
           </Container>
      
       

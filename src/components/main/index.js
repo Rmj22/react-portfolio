@@ -8,7 +8,7 @@ export class Main extends Component {
     render() {
         return (
                     <Container fluid>
-                <Row className="justify-content-center">
+                {/* <Row className="justify-content-center">
                <Col md={6}>
             
                 <Card.Body>
@@ -19,18 +19,56 @@ export class Main extends Component {
                     </p>
                 </Card.Body>
               </Col>
-              </Row>
+              </Row> */}
               <Row className="justify-content-center">
-                  <Col md={6}>
-                  <Card.Body>
+                  <Col md={4}>
+                     
+                  <Card.Body className="card">
                       <h3>About Us</h3>
-                      <p>Over the past 10 years we have provided business IT solutions for government agencies in
-                          the DC, MD and VA. The owner Robin Jones is from Arlington, VA and in 2009 he joined the Army National
-                          Guard and served for 6 years in the 29th Infantry division. After leaving the national guard he subcontracted with
-                          the government to provide software solutions. Now he wants to bring those skills to your business/organization. </p>
+                      <p>We create and maintain web solutions for government clients using a pool
+                           of diverse individuals with various development backgrounds to bring new 
+                           solutions to your organization. Before any of our employees arrive at the 
+                           customer site they train on good coding practices to ensure uniformity for the client. 
+                           Our goal is to collaborate with you to organize and optimize your mission. </p>
                   </Card.Body>
+                 
                   </Col>
               </Row>
+              <Row className="justify-text-center">
+         <Col md={4}>
+           <Card.Body className="card">
+             <h3 className="header"> Software Development</h3>
+             <p> Using agile scrum, code hosting and collaboration software our developers will build the tool you need. 
+                We have programmers with diverse background in Angular, Java, C++, Javascript, Python and MySql.
+ </p>
+           </Card.Body>
+         </Col>
+      <Col md={4}>
+           <Card.Body className="card">
+             <h3 className="header"> Software Training </h3>
+             <p>
+             In-person vs. Remote most of the time this is decided by need and capability.
+              We have the ability maintain team organization and collaborations remotely if prefered.  
+              Our Technical writers will work with the client and staff on solution implementation.
+              We also help prepare custom presentations for leadership. Xml’s technical writers ensure 
+              the client understands their solutions inside and out.
+             </p>
+           </Card.Body>
+         </Col>
+         
+         
+        
+         <Col md={4}>
+           <Card.Body className="card">
+             <h3 className="header"> SharePoint </h3>
+             <p>
+             The team is composed of content managers, administrators, architects and developers.
+              All of these positions are important to the correct build of your solutions. 
+              We configure, maintain, test, gather requierments and normalize data.                                                                                                     
+             </p>
+           </Card.Body>
+         </Col>
+         </Row>
               </Container>                
         )
     }

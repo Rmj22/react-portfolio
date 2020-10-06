@@ -19,6 +19,9 @@ function Home() {
         <Col md="auto">
         <Main/>
         </Col>
+        <Row>
+        <h3>Services Provided</h3>
+      </Row>
       </Row>
       <Row className="justify-content-md-center">
         <Col md="auto">

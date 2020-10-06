@@ -5,3 +5,7 @@
     text-align: center;
    
  }
+.card {
+    border-color: blue;
+    color: black
+}
