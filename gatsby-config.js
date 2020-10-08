@@ -29,20 +29,20 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/public/portfolio/`,
-        name: 'portfolio',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/public/testimonials/`,
-        name: 'testimonials',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/public/portfolio/`,
+    //     name: 'portfolio',
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/public/testimonials/`,
+    //     name: 'testimonials',
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-netlify',
       options: {

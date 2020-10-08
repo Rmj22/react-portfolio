@@ -2,8 +2,8 @@ import React from 'react'
 import Particles from 'react-particles-js';
 import Progress from 'components/progress'
 import { Row, Col } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import ThemeContext from '../../context'
 import './styles.scss'
 
@@ -19,7 +19,7 @@ class Hero extends React.Component {
                     <Col md={6} className="content">
                         <div className="content-text">
                             <div className="line-text">
-                                <h4>About Us</h4>
+                                <h3>About Us</h3>
                             </div>
                             <p>We create and maintain web solutions for government clients using a pool
                            of diverse individuals with various development backgrounds to bring new 

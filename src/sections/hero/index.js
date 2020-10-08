@@ -20,15 +20,15 @@ class Hero extends React.Component {
           <Col md={6} className="content">
             <div className="content-text">
               <div className="line-text">
-                <h3>Welcome To</h3>
+                <h4>Welcome To</h4>
               </div>
               <Glitch text="XML VANTAGE" />
               <Typewriter
                 options={{
                   strings: [
-                    'Veteran Owned',
-                    'Front-end Developers',
-                    '',
+                    'Agile Scrum',
+                    'Site Design',
+                    'SharePoint',
                   ],
                   autoStart: true,
                   loop: true,
@@ -40,12 +40,12 @@ class Hero extends React.Component {
             </div>
             
           </Col>
-          <Col md={6} className="img">
+          {/* <Col md={6} className="img">
             <img
               src="img/white_logo_dark_background.jpg"
               alt="logo"
             />
-          </Col>
+          </Col> */}
         </Row>
       </section>
     )

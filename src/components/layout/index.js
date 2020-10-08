@@ -19,8 +19,6 @@ class Layout extends React.Component {
       'home',
       'about',
       'services',
-      'portfolio',
-      'testimonials',
       'contact',
     ]
     this.section_id = 0
