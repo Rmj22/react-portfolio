@@ -3,15 +3,10 @@ import { Row, Col, Container } from 'react-bootstrap'
 import BaffleText from 'components/baffle-text'
 import AnimationContainer from 'components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faAngular, faAws } from '@fortawesome/free-brands-svg-icons'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
 import {
-  faPencilRuler,
-  faServer,
-  faRobot,
-  faSmileBeam,
-  faPizzaSlice,
-  faQuoteRight,
-  faCode,
+ 
+  faCode, faBuilding, faSitemap, faDatabase, faChalkboard, faUserTie
 } from '@fortawesome/free-solid-svg-icons'
 import Counter from 'components/counter'
 import ThemeContext from '../../context'
@@ -55,7 +50,7 @@ class Services extends React.Component {
               </div>
               <div className="heading">
                 <BaffleText
-                  text="What I Do"
+                  text="What We Do"
                   revealDuration={500}
                   revealDelay={500}
                   parentMethod={this.show}
@@ -100,7 +95,7 @@ class Services extends React.Component {
           <Col md={4} className="service border-side">
             <AnimationContainer delay={400} animation="fadeInDown fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAngular} />
+                <FontAwesomeIcon icon={faChalkboard} />
               </div>
               <h4>Software Training</h4>
               <p>
@@ -115,7 +110,7 @@ class Services extends React.Component {
           <Col md={4} className="service">
             <AnimationContainer delay={600} animation="fadeInRight fast">
               <div className="icon">
-                <FontAwesomeIcon icon={faAws} />
+                <FontAwesomeIcon icon={faDatabase} />
               </div>
               <h4>SharePoint</h4>
               <p>
@@ -182,10 +177,10 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faSmileBeam}
-                value={100}
-                text="Agencies"
-                symbol="+"
+                icon={faUserTie}
+                value={5}
+                text="Government Agencies"
+                // symbol="+"
                 duration={3}
               />
             </AnimationContainer>
@@ -193,8 +188,8 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faPizzaSlice}
-                value={1000}
+                icon={faBuilding}
+                value={30}
                 text="Organizations"
                 symbol="+"
                 duration={3}
@@ -204,9 +199,9 @@ class Services extends React.Component {
           <Col md={3}>
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
-                icon={faQuoteRight}
+                icon={faSitemap}
                 value={500}
-                text="Public Sites"
+                text="Site Designs"
                 symbol="+"
                 duration={3}
               />
@@ -216,7 +211,7 @@ class Services extends React.Component {
             <AnimationContainer delay={100} animation="fadeIn fast">
               <Counter
                 icon={faCode}
-                value={50000}
+                value={100}
                 text="Optimized Dashboards"
                 symbol="+"
                 duration={3}
